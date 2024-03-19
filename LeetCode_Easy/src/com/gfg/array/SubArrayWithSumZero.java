@@ -36,7 +36,7 @@ public class SubArrayWithSumZero {
 	}
 	
 	
-	//TC:O(n^2)  SC:O(1)
+	//TC:O(n)  SC:O(1)
 	private static int subArrayWithSumZero(int[] arr) {
 			// TODO Auto-generated method stub
 		Map<Integer,Integer> prefixMap = new HashMap<>();
