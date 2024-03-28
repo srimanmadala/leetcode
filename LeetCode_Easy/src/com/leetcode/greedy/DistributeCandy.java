@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * A[......,i,.....] A[i-1]<A[i]<A[i+1] A[i] = max(A[i-1]+1 , A[i+1]+1)
  * 
- * default is atleast one candy [1,2,7,4,3,3,1] [1,7,4,3,1]
+ * default is atleast one candy [1,2,7,4,3,3,1] [1,7,4,3,1] - Lcount,RCount
  */
 public class DistributeCandy {
 
